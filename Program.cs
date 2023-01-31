@@ -20,7 +20,7 @@ namespace PracticaSemaforo
             {
                 new Thread(Metodo).Start(n);
             }
-            Console.ReadLine();
+            Console.ReadKey();
         }
         static void Metodo(object n)
         {
